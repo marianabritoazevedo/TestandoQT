@@ -23,3 +23,8 @@ void MainWindow::sair()
     exit(0);
 }
 
+void MainWindow::copiaTexto()
+{
+    ui->textBrowser->setText(ui->textEdit->toPlainText());
+}
+
